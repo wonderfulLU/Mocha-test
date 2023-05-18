@@ -33,10 +33,10 @@ describe('fill Herokuapp layout', () => {
         };
         
     it('Inline form', Inline_form('Anastasiia', 'email@mail.com'));
-    //it('Inline form1', Inline_form('аnastasiia', 'email@mail.com'));
-    //it('Inline form2', Inline_form('Anastasiia', 'emailmail.com'));
-    //it('Inline form3', Inline_form('Anastasiia', 'email@mailcom'));
-    //it('Inline form4', Inline_form('123', 'email@mail.com'));
+    it('Inline form1', Inline_form('аnastasiia', 'email@mail.com'));
+    it('Inline form2', Inline_form('Anastasiia', 'emailmail.com'));
+    it('Inline form3', Inline_form('Anastasiia', 'email@mailcom'));
+    it('Inline form4', Inline_form('123', 'email@mail.com'));
 
     /*const Using_the_Grid = (email1, password) =>
 
