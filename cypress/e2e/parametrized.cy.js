@@ -8,7 +8,7 @@ describe('Multiple tests', () => {
       cy.visit('https://google.com');
       cy.get('textarea.gLFyf').type(`${testData}`);
       cy.get('div.wM6W7d').should("contain", `${expectedResult}`) //.should перевыряэ, що елемент мыстить певний текст у даному випадку
-    };
+    };   //~str.indexOf('@')
 
   it('search for CYPRESS', testGoogle('CYPRESS', 'cypress'));
   it('search for AUDI', testGoogle('AUDI', 'audi'));
